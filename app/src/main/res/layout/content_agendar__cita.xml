@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/input_register_hint"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+
+        <EditText
+            android:id="@+id/nombre_paciente"
+            android:hint="Nombre del paciente"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint"/>
+
+
+
+        <TimePicker
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker" />
+
+        <DatePicker
+            android:layout_below="@+id/timePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker" />
+
+        <Button
+
+            android:text="Agendar Cita"
+            android:id="@+id/agendar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/bg_register"
+            android:textColor="@color/btn_login"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:textColor="#000000"
+            android:id="@+id/register_error"
+            android:layout_below="@+id/register"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+</LinearLayout>

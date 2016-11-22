@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info_general"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Informacion General" />
+        <item
+            android:id="@+id/signos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Signos y Sintomas" />
+        <item
+            android:id="@+id/vida"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vida Saludable" />
+    </group>
+
+    <item android:title="Cosas Personales">
+        <menu>
+            <item
+                android:id="@+id/unidades_medicas"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Unidades Medicas Especializadas" />
+            <item
+                android:id="@+id/civiles"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Organizaciones Civiles" />
+            <item
+                android:id="@+id/inicio_sesion"
+                android:icon="@drawable/inicio_sesion"
+                android:title="Iniciar Sesion" />
+        </menu>
+    </item>
+
+</menu>

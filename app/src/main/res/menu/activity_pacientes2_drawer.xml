@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ag_cita"
+            android:icon="@drawable/calendar_text"
+            android:title="Agendar Cita" />
+        <item
+            android:id="@+id/cita"
+            android:icon="@drawable/calendar_today"
+            android:title="Citas" />
+        <item
+            android:id="@+id/info_nutr"
+            android:icon="@drawable/information"
+            android:title="Informacion Nutrimental" />
+    </group>
+
+
+</menu>
